@@ -1,4 +1,5 @@
-
+file1= open('Book1.txt','r')
+file1=file1.readlines()
 def character_word_count(file):
     hist=dict()
     for line in file:
